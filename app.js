@@ -1,7 +1,7 @@
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', function () {
 
-    navigator.serviceWorker.register('/firebase-messaging-sw.js')
+    navigator.serviceWorker.register('./firebase-messaging-sw.js')
       .then(registration => {
 
         //通知の許可をユーザに確認
