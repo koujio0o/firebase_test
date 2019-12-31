@@ -1,0 +1,14 @@
+{
+  "name": "ServiceWorker Push",
+  "short_name": "ServiceWorker Push",
+  "icons": [
+    {
+      "src": "https://pbs.twimg.com/media/EMr0WhQUEAAmuYo.jpg",
+      "sizes": "192x192",
+      "type": "image/jpg"
+    }
+  ],
+  "start_url": "./test.html",
+  "display": "standalone",
+  "gcm_sender_id": "781008243311"
+}

@@ -1,0 +1,36 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+
+  <!-- manifest.json を指定 -->
+  <link rel="manifest" href="./manifest.json">
+
+  <!-- firebaseを利用する為のJavascript -->
+  <script defer src="https://www.gstatic.com/firebasejs/7.3.0/firebase-app.js"></script>
+  <script defer src="https://www.gstatic.com/firebasejs/7.3.0/firebase-messaging.js"></script>
+  <script defer src="/script/firebase-init.js"></script>
+
+  <!-- ServiceWorkerを利用する為のJavascript -->
+  <script defer src="app.js"></script>
+</head>
+
+<body>
+  <h1>SAMPLE ServiceWorker - 01xxxxx</h1>
+</body>
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBDe1kb9ph1SCW3od9DOhu-EfXJH7HsnkE",
+    authDomain: "first-vigil-258614.firebaseapp.com",
+    databaseURL: "https://first-vigil-258614.firebaseio.com",
+    projectId: "first-vigil-258614",
+    storageBucket: "first-vigil-258614.appspot.com",
+    messagingSenderId: "781008243311",
+    appId: "1:781008243311:web:67002023718ecddb3edb9a"
+  };
+  // Initialize Firebase
+  // firebase.initializeApp(firebaseConfig);
+</script>
+
+</html>
